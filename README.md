@@ -94,8 +94,3 @@ Se desejar contribuir para este projeto, sinta-se à vontade para fazer um fork 
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Certifique-se de substituir os placeholders pelo caminho correto da imagem e o link real do seu projeto no GitHub Pages antes de usar o README. Se precisar de mais alguma coisa, é só avisar!
-
