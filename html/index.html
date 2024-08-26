@@ -9,36 +9,62 @@
 <body>
 
     <header>
-        <h1>Vitor Fidelis</h1>
+        <!-- Título principal do cabeçalho -->
+        <h1>HOME</h1>
+        <!-- Navegação do site -->
         <nav>
+            <!-- Links de navegação para outras páginas do site -->
             <a href="index.html">Home</a>
             <a href="aboutme.html">About Me</a>
-            <a href="https://vitor-fidelis.github.io/Portfolio/" id="preview-link">ONE</a> <!-- Link para a pré-visualização -->
-            <a href="contato.html">GitHub</a>
+            <!-- Link para a pré-visualização do portfólio em um site externo -->
+            <a href="https://vitor-fidelis.github.io/Portfolio/" id="preview-link">ONE</a> 
+            <!-- Link para a página de contato ou GitHub -->
+            <a href="contato.html">Contact</a>
         </nav>
     </header>
 
     <main>
-        <p>Bem-vindo ao site do Vitor!<br>
+        <!-- Primeiro parágrafo do conteúdo principal -->
+        <p>
+            <br><br><br> <!-- Espaçamento superior -->
+            Bem-vindo ao site do Vitor!<br>
             Desenvolvido com base em proposta para atividade prática!<br>
             Espero que goste!
         </p>
 
+        <!-- Segundo parágrafo do conteúdo principal -->
         <p>
-            For those who don't speak Portuguese:<br>
+            <br><br> <!-- Espaçamento superior -->
+            For those who don't speak Portuguese:<br><br>
             This website was developed by myself as an exercise proposed in Web Development Fundamentals.<br>
-            Hope you enjoy!
+            Hope you enjoy!<br><br><br> <!-- Espaçamento inferior -->
         </p>
 
+        <!-- Seção para Formação Educacional / Habilidades -->
+        <h3>Formação Educacional / Habilidades</h3>
+        <!-- Lista de formação educacional e habilidades -->
+        <ul id="formacao-educacional">
+            <li>Análise e Desenvolvimento de Sistemas (Uninter 2023/2026)</li>
+            <li>Oracle Next Education (Oracle, Alura . 2024)</li>
+            <li>PostgreSQL (Udemy . 2023)</li>
+        </ul>
+        
+        <!-- Container para a pré-visualização do site, inicialmente oculto -->
         <div id="preview-container" class="hidden">
+            <!-- Imagem da pré-visualização do site -->
             <img src="../images/preview-site.png" alt="Preview do site ONE">
         </div>
     </main>
 
+    <!-- Imagem do banner colocada abaixo do conteúdo principal -->
+    <img id="banner-vitor" src="../images/banner.png" alt="banner">
+
     <footer>
+        <!-- Rodapé da página com direitos autorais -->
         <p>© 2024 Vitor Fidelis. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="../javascript/home.js"></script> <!-- Incluindo JavaScript -->
+    <!-- Inclui o arquivo JavaScript externo para funcionalidades adicionais -->
+    <script src="../javascript/home.js"></script>
 </body>
 </html>

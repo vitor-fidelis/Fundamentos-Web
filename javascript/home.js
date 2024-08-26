@@ -14,3 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 500); // Tempo para a transição de opacidade
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const vitorImg = document.getElementById('vitor-img');
+
+    // Define um atraso opcional antes de iniciar a transição
+    setTimeout(() => {
+        vitorImg.style.opacity = '1'; // Torna a imagem visível
+    }, 100); // O atraso pode ser ajustado conforme necessário
+});

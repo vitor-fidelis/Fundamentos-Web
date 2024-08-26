@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Vitor Fidelis</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o viewport para dispositivos móveis -->
+    <title>About Me - Vitor Fidelis</title> <!-- Título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="../css/style.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
 
     <header>
-        <h1>Vitor Fidelis</h1>
+        <!-- Cabeçalho da página -->
+        <h1>Vitor Fidelis</h1> <!-- Nome exibido em destaque -->
         <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="https://vitor-fidelis.github.io/Portfolio/" id="preview-link">ONE</a> <!-- Link para a pré-visualização -->
-            <a href="contato.html">Contact</a>
+            <!-- Menu de navegação -->
+            <a href="index.html">Home</a> <!-- Link para a página inicial -->
+            <a href="aboutme.html">About Me</a> <!-- Link para a página "Sobre Mim" -->
+            <a href="https://vitor-fidelis.github.io/Portfolio/" id="preview-link">ONE</a> <!-- Link para a pré-visualização do portfólio -->
+            <a href="contato.html">Contact</a> <!-- Link para a página de contato -->
         </nav>
     </header>
 
     <main>
-        <h2>About Me</h2>
-        <p>
-            Olá! Eu sou Vitor Fidelis, um desenvolvedor apaixonado por tecnologia e inovação.<br>
-            Este site foi criado como parte de uma atividade prática para mostrar um pouco do meu trabalho e habilidades.
-        </p>
+        <!-- Conteúdo principal da página -->
+        <h2>About Me</h2> <!-- Título da seção sobre mim -->
+        <div class="content-wrapper">
+            <!-- Contêiner para o conteúdo principal -->
+            <div id="vitor-image">
+                <!-- Div para a imagem de perfil -->
+                <img id="vitor-img" src="../images/eu.png" alt="Imagem de Vitor"> <!-- Imagem de Vitor -->
+            </div>
+            <div id="main-content">
+                <!-- Div para o conteúdo textual -->
+                <p>
+                    Olá! Eu sou Vitor Fidelis, um desenvolvedor apaixonado por tecnologia e inovação.<br>
+                    Este site foi criado como parte de uma atividade prática para mostrar um pouco do meu trabalho e habilidades.<br>
+                    <br>
+                    Sempre fui curioso, extrovertido e comunicativo.<br> 
+                    Desde a infância, sou envolvido com a música. Aprendi a tocar diversos instrumentos, entre eles:<br>
+                    Violão, Piano, Trompete, Trombone de vara, Clarinete, Clarinete Baixo, e durante alguns anos, segui carreira como cantor.<br>
+                    Morei em diversos lugares do Brasil e em Portugal. Mas passei a maior parte da minha vida no interior de Minas Gerais, de onde sou natural.<br>
+                    Desde que decidi entrar na área da tecnologia, percebi que a música sempre foi um prazer, algo que eu fazia para mim.<br>
+                    Algo que deixei de lado quando comecei a cantar para o público.<br>
+                    Além de ser aficionado por música, gosto de astronomia, estudar história, tirar fotos de paisagens e conhecer novos lugares.
+                </p>
 
-        <p>
-            Hello! I am Vitor Fidelis, a developer passionate about technology and innovation.<br>
-            This site was created as part of a practical exercise to showcase some of my work and skills.
-        </p>
-
-        <!-- Adicione a foto com o contêiner -->
+                <!-- Texto em inglês para uma versão bilíngue -->
+                <p>
+                    Hello! I am Vitor Fidelis, a developer passionate about technology and innovation.<br>
+                    This site was created as part of a practical exercise to showcase some of my work and skills.<br>
+                    <br>
+                    I have always been curious, extroverted, and communicative.<br>
+                    Since childhood, I have been involved with music. I learned to play various instruments, including:<br>
+                    Guitar, Piano, Trumpet, Slide Trombone, Clarinet, and Bass Clarinet. For several years, I worked as a singer.<br>
+                    I have lived in many places in Brazil and in Portugal. However, I spent most of my life in the interior of Minas Gerais, where I am from.<br>
+                    Since I decided to enter the technology field, I realized that music has always been a pleasure for me, something I did for myself.<br>
+                    It was something I put aside when I started singing for the public.<br>
+                    In addition to being a music enthusiast, I enjoy astronomy, studying history, taking landscape photos, and exploring new places.
+                </p>
+                
+            </div>
+        </div>
+        <!-- Adiciona a foto de pré-visualização do meu primeiro site -->
         <div id="preview-container">
-            <img src="../images/preview-site.png" alt="Preview do site de Vitor">
+            <img src="../images/preview-site.png" alt="Preview do site de Vitor"> <!-- Imagem de pré-visualização do site -->
         </div>
 
-        <div>
-            <img src="../images/eu.png" alt="Imagem de Vitor">
-        </div>
     </main>
 
     <footer>
-        <p>© 2024 Vitor Fidelis. Todos os direitos reservados.</p>
+        <!-- Rodapé da página -->
+        <p>© 2024 Vitor Fidelis. Todos os direitos reservados.</p> <!-- Texto de direitos autorais -->
     </footer>
 
-    <script src="../javascript/home.js"></script> <!-- Inclua o JavaScript específico -->
+    <script src="../javascript/home.js"></script> <!-- Link para o arquivo JavaScript específico -->
 
 </body>
 </html>
