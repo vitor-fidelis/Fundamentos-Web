@@ -1,4 +1,4 @@
-﻿![images\banner.png](https://github.com/vitor-fidelis/Fundamentos-Web/blob/232ad7c095a055eb6d578b3e1fb0073afbdcdac5/images/banner.png)
+﻿![images\banner.png](https://github.com/vitor-fidelis/Fundamentos-Web/blob/232ad7c095a055eb6d578b3e1fb0073afbdcdac5/banner.png)
 
 # Projeto Pessoal de Vitor Fidelis
 
