@@ -271,16 +271,18 @@ button:hover {
 #professional-history h2 {
     text-align: center;
     font-family: var(--fonte-primaria);
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
     margin-bottom: 30px;
 }
 
 #professional-history h3 {
     font-family: var(--fonte-secundaria);
-    color: var(--cor-secundaria);
+    color: var(--cor-link);
     margin-bottom: 15px;
 }
 
 #professional-history p, 
 #professional-history ul {
-    font-family: var(--fon
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
