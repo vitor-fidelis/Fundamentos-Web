@@ -8,11 +8,12 @@ Este é um projeto pessoal desenvolvido por Vitor Fidelis, que visa demonstrar s
 
 ## Estrutura do Projeto
 
-O projeto é dividido em três páginas principais e um script JavaScript para funcionalidades adicionais. A estrutura do projeto é a seguinte:
+O projeto é dividido em quatro páginas principais e um script JavaScript para funcionalidades adicionais. A estrutura do projeto é a seguinte:
 
 - `index.html` - Página inicial do site.
 - `aboutme.html` - Página sobre o autor, Vitor Fidelis.
 - `contato.html` - Página com um formulário de contato.
+- `professionalhistory.html` - Página com o histórico profissional.
 - `style.css` - Arquivo CSS com estilos para o projeto.
 - `home.js` - Arquivo JavaScript para funcionalidades específicas do site.
 
@@ -43,6 +44,12 @@ O projeto é dividido em três páginas principais e um script JavaScript para f
 - **Formulário de Contato**: Campos para nome, e-mail e mensagem, com um botão para enviar.
 - **Rodapé**: Direitos autorais.
 
+### `professionalhistory.html`
+
+- **Cabeçalho**: Nome e menu de navegação.
+- **Seção Histórico Profissional**: Detalha as experiências profissionais de Vitor Fidelis em português e inglês. Inclui cargos, empresas, responsabilidades e períodos de atuação.
+- **Rodapé**: Direitos autorais.
+
 ## Arquivos de Estilo e Script
 
 ### `style.css`
@@ -61,12 +68,9 @@ Contém os estilos globais e específicos para cada parte do site:
 - **Funcionalidade de Pré-visualização**: Exibe a pré-visualização do portfólio ao passar o mouse sobre o link.
 - **Transição da Imagem de Perfil**: Torna a imagem de perfil visível com uma transição suave.
 
-
-
 ## Link para o GitHub Pages
 
 Visite o projeto online em: [Site](https://vitor-fidelis.github.io/Fundamentos-Web/)
-
 
 ## Instruções para Executar o Projeto
 
@@ -89,7 +93,6 @@ Visite o projeto online em: [Site](https://vitor-fidelis.github.io/Fundamentos-W
 ## Contribuições
 
 Se desejar contribuir para este projeto, sinta-se à vontade para fazer um fork e enviar pull requests. Sugestões e feedback são bem-vindos.
-
 
 ## Licença
 

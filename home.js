@@ -23,3 +23,4 @@ document.addEventListener('DOMContentLoaded', () => {
         vitorImg.style.opacity = '1'; // Torna a imagem visível
     }, 100); // O atraso pode ser ajustado conforme necessário
 });
+
