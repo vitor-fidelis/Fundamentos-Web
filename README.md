@@ -70,7 +70,7 @@ Contém os estilos globais e específicos para cada parte do site:
 
 ## Link para o GitHub Pages
 
-Visite o projeto online em: [Site](https://vitor-fidelis.github.io/Fundamentos-Web/)
+Visite o projeto online em: [SITE DO PROJETO](https://vitor-fidelis.github.io/Fundamentos-Web/)
 
 ## Instruções para Executar o Projeto
 
