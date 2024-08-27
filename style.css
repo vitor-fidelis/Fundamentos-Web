@@ -232,3 +232,55 @@ button:hover {
     max-width: 1200px;
     height: auto;
 }
+
+/*Estilização de Professional History*/
+#professional-history {
+    padding: 50px;
+    background-image: url(phvitor.png); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: var(--cor-link); /* Ajusta o texto para ser legível sobre a imagem */
+    position: relative; /* Para posicionar o overlay */
+    color
+}
+
+#professional-history::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Um overlay escuro para melhorar a legibilidade */
+    z-index: 1;
+}
+
+#professional-history .content {
+    position: relative; /* Para garantir que o conteúdo fique acima do overlay */
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#professional-history .content > div {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+#professional-history h2 {
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    margin-bottom: 30px;
+}
+
+#professional-history h3 {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    margin-bottom: 15px;
+}
+
+#professional-history p, 
+#professional-history ul {
+    font-family: var(--fon
