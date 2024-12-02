@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* Variáveis de Cores e Fontes */
+:root {
+    --cor-primaria: #040303;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #B3541E;
+    --cor-hover: #A13333;
+    --cor-link: #ffffff;
+    --cor-link-border: #A13333;
+    --cor-rodape: #461111;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+/* Reset de Margens e Preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+/* Estilos do Header */
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 10px 2%;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte-primaria);
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do Main */
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: var(--cor-rodape);
+    color: var(--cor-secundaria);
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Estilos de Responsividade */
+@media (max-width: 1200px) {
+    header {
+        padding: 5%;
+    }
+
+    nav {
+        margin-top: 5px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 1.25rem;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilo para o Contêiner de Pré-Visualização */
+#preview-container {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1000;
+}
+
+#preview-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#vitor-img {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+#vitor-image {
+    flex: 1;
+}
+
+#vitor-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#main-content {
+    flex: 2;
+    text-align: left;
+}
+
+#main-content p {
+    margin-bottom: 20px;
+}
+
+#formacao-educacional {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#formacao-educacional li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+#formacao-educacional li::before {
+    content: '➤';
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #A13333;
+}
+
+/* Estilização do Banner Home */
+#banner-vitor {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+/*Estilização de Professional History*/
+#professional-history {
+    padding: 50px;
+    background-image: url(phvitor.png); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: var(--cor-link); /* Ajusta o texto para ser legível sobre a imagem */
+    position: relative; /* Para posicionar o overlay */
+    color
+}
+
+#professional-history::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Um overlay escuro para melhorar a legibilidade */
+    z-index: 1;
+}
+
+#professional-history .content {
+    position: relative; /* Para garantir que o conteúdo fique acima do overlay */
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#professional-history .content > div {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+#professional-history h2 {
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    margin-bottom: 30px;
+}
+
+#professional-history h3 {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-link);
+    margin-bottom: 15px;
+}
+
+#professional-history p, 
+#professional-history ul {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
